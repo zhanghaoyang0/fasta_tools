@@ -5,7 +5,7 @@ Now I only make one tool, but I may do more.
 
 # Requirements 
 - `Linux` 
-- `Python3` (3.9.6) with `pandas` (1.4.3), `argparse`, `os`, `sys`, `time`
+- `Python3` (3.9.6) with `argparse`, `os`, `sys`, `time`
 
 # Getting Started
 Clone this repository via the commands:
