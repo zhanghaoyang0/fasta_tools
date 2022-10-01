@@ -4,7 +4,6 @@ Some tools to process fasta
 
 # Requirements 
 - `Linux` 
-- `LiftOver`
 - `Python3` (3.9.6) with `pandas` (1.4.3), `argparse`, `os`, `sys`, `time`
 
 # Getting Started
