@@ -1,6 +1,7 @@
 
 # About fasta_tools
-Some tools to process fasta
+Some tools to process fasta.  
+Now I only make one tool, but I may do more.   
 
 # Requirements 
 - `Linux` 
@@ -13,13 +14,11 @@ git clone https://github.com/zhanghaoyang0/fasta_tool.git
 cd fasta_tool
 ```
 
-# Some tools
-Now I only make one tool, but I may do more.   
+# split_fa
+a script to split fasta.  
+I make some improvement to [split-fasta](https://github.com/uditvashisht/split-fasta) to make it accept gz input and name the output files with seq names.
 
-`split_fa`: a script to split fasta.  
-I make minor efforts to `[split-fasta](https://github.com/uditvashisht/split-fasta)` to make it accept gz input and name the output files with seq names.
-Examples (hg38tohg19):
-
+Examples:
 ```
 python ./code/split_fa.py\
 --file_in ./example/test.fa \
