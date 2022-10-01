@@ -16,7 +16,7 @@ cd fasta_tool
 
 # split_fa
 a script to split fasta.  
-I make some improvement to [split-fasta](https://github.com/uditvashisht/split-fasta) to make it accept gz input and name the output files with seq names.
+I make some improvement to [split-fasta](https://github.com/uditvashisht/split-fasta) to make it accept `.gz` input and name the output files with seq names.
 
 Examples:
 ```
