@@ -20,13 +20,13 @@ I make some improvement to [split-fasta](https://github.com/uditvashisht/split-f
 
 Examples:
 ```
-python ./code/split_fa.py\
+python ./code/split_fa.py \
 --file_in ./example/test.fa \
 --path_out ./example/test_splited
 ```
 gzip (file_in end with '.gz') input can be recongized: 
 ```
-python ./code/split_fa.py\
+python ./code/split_fa.py \
 --file_in ./example/test.fa.gz \
 --path_out ./example/test_splited
 ```
