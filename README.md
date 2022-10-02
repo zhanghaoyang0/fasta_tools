@@ -30,18 +30,27 @@ python ./code/split_fa.py \
 --file_in ./example/test.fa.gz \
 --path_out ./example/test_splited
 ```
-The input file is like:
+The input file (e.g., test.fa) is like:
 ```
->chr1
-ACCCTTTTNNNN
->chr11
-TCGAAATTTCCGGGGGGAAAA
->chr2
+>fas1
+taaccctaaccctaaccctaaccctaaccctaaccctaaccctaacccta
+accctaaccctaaccctaaccctaaccctaaccctaaccctaaccctaac
+cctaacccaaccctaaccctaaccctaaccctaaccctaaccctaacccc
+>fas2
+taaccctaaccctaaccctaaccctaacctaaccctaaccctaaccctaa
+ccctaaccctaaccctaaccctaaccctaacccctaaccctaaccctaaa
+ccctaaaccctaaccctaaccctaaccctaaccctaaccccaaccccaac
+>fas3
+cccaaccccaaccccaaccccaaccctaacccctaaccctaaccctaacc
+ctaccctaaccctaaccctaaccctaaccctaaccctaacccctaacccc
+taaccctaaccctaaccctaaccctaaccctaaccctaacccctaaccct
 ```
-The output file (e.g., chr1) is like:
+The output file (e.g., fas1) is like:
 ```
-ACCCTTTTNNNN
+taaccctaaccctaaccctaaccctaaccctaaccctaaccctaacccta
+accctaaccctaaccctaaccctaaccctaaccctaaccctaaccctaac
+cctaacccaaccctaaccctaaccctaaccctaaccctaaccctaacccc
 ```
 
 # Feedback and comments
-Add an issue or send email to zhanghaoyang0@hotmail.com
+Add an issue, or email to zhanghaoyang0@hotmail.com

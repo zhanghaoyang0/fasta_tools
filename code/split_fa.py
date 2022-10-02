@@ -19,9 +19,9 @@ args = parser.parse_args()
 file_in = args.file_in
 path_out = args.path_out
 
-# # default setting
-# file_in = './example/test.fa.gz'
-# path_out = './example/test_splited/'
+# default setting
+file_in = './example/test.fa.gz'
+path_out = './example/test_splited/'
 
 print('setting:')
 print('file_in: '+ file_in)
@@ -48,7 +48,7 @@ f.close()
 for i in data[1:]:
     items = i.split('\n')
     seq_name = items[0]
-    seq = items[1]
+    seq = '\n'.join(items[1:])
     with open(path_out+'/'+seq_name, 'w') as f:
         _ = f.write(seq) # use a var to aviod printing
 
