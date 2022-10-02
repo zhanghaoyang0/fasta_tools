@@ -19,9 +19,9 @@ args = parser.parse_args()
 file_in = args.file_in
 path_out = args.path_out
 
-# default setting
-file_in = './example/test.fa.gz'
-path_out = './example/test_splited/'
+# # default setting
+# file_in = './example/test.fa.gz'
+# path_out = './example/test_splited/'
 
 print('setting:')
 print('file_in: '+ file_in)
